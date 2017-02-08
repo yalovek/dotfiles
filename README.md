@@ -6,5 +6,5 @@
 .bash_prompt
 .exports
 .bash_aliases
-.functions
 .extra
+

@@ -4,7 +4,7 @@ export PATH="$HOME/bin:$PATH";
 # Load the shell dotfiles, and then some:
 # * ~/.path can be used to extend `$PATH`.
 # * ~/.extra can be used for other settings you don’t want to commit.
-for file in ~/.{path,bash_prompt,exports,bash_aliases,functions,extra}; do
+for file in ~/.{path,bash_prompt,exports,bash_aliases,extra}; do
   [ -r "$file" ] && [ -f "$file" ] && source "$file";
 done;
 unset file;
@@ -58,12 +58,4 @@ complete -W "NSGlobalDomain" defaults;
 
 # make less more friendly for non-text input files, see lesspipe(1)
 [ -x /usr/bin/lesspipe ] && eval "$(SHELL=/bin/sh lesspipe)"
-
-if [ ! -d "$HOME/.vimbackup" ]; then
-  mkdir ~/.vimbackup;
-fi;
-
-if [ ! -d "$HOME/.vimswap" ]; then
-  mkdir ~/.vimswap;
-fi;
 

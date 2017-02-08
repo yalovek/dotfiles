@@ -64,8 +64,8 @@ prompt_jobs() {
 }
 
 reset_color="\[\e[0m\]";
-bg_blue="\[\e[48;5;21m\]";
-bg_green="\[\e[48;5;22m\]";
+bg_blue="\[\e[48;5;33m\]";
+bg_green="\[\e[48;5;64m\]";
 bg_red="\[\e[48;5;124m\]";
 bg_orange="\[\e[48;5;166m\]";
 bg_gray="\[\e[48;5;238m\]";

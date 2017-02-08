@@ -1,0 +1,23 @@
+[user]
+  name = Vadim Yalovenko
+  email = yalovek@ya.ru
+
+[core]
+  editor = vim
+  autocrlf = input
+  whitespace = space-before-tab,-indent-with-non-tab,trailing-space
+  filemode = false
+  trustctime = false
+
+[color]
+  ui = true
+
+[diff]
+  tool = vimdiff
+
+[merge]
+  tool = vim
+
+[help]
+  autocorrect = 1
+

@@ -16,7 +16,7 @@
   tool = vimdiff
 
 [merge]
-  tool = vim
+  tool = vimdiff
 
 [help]
   autocorrect = 1

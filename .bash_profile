@@ -58,3 +58,12 @@ complete -W "NSGlobalDomain" defaults;
 
 # make less more friendly for non-text input files, see lesspipe(1)
 [ -x /usr/bin/lesspipe ] && eval "$(SHELL=/bin/sh lesspipe)"
+
+if [ ! -d "$HOME/.vimbackup" ]; then
+  mkdir ~/.vimbackup;
+fi;
+
+if [ ! -d "$HOME/.vimswap" ]; then
+  mkdir ~/.vimswap;
+fi;
+

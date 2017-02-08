@@ -8,6 +8,7 @@ rsync --include ".gitconfig" \
   --include ".inputrc" \
   --include ".screenrc" \
   --include ".editorconfig" \
+  --include ".vimrc" \
   --exclude "*" \
   -avh --no-perms . ~;
 
